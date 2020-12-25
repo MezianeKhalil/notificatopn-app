@@ -1,0 +1,17 @@
+{
+  "name": "notification-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss build assets/vendors/tailwindcss/src/main.css -o assets/vendors/tailwindcss/dist/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.2"
+  }
+}

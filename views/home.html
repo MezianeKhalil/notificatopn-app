@@ -1,0 +1,81 @@
+<!-- 
+  template name : notification app
+  version       : 1.0
+  author        : khalil meziane
+  contact       : kahlilmez2000@gmail.com
+  created       : 20/12/2020
+  file name     : home.html
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="add active class in scrolling example" />
+    <meta name="author" content="khalil meziane" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="keywords" content="blog, web development, front end" />
+    <!-- style sheet -->
+    <link rel="stylesheet" href="../assets/vendors/tailwindcss/dist/main.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <!-- title -->
+    <title>Notification App</title>
+    <style>
+        .slide-left {
+        -webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+        @keyframes slide-left {
+            0% {
+            -webkit-transform: translateX(500px);
+                    transform: translateX(500px);
+            }
+            100% {
+            -webkit-transform: translateX(0px);
+                    transform: translateX(0px);
+            }
+        }
+        .slide-right {
+            -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+        @keyframes slide-right {
+            0% {
+                -webkit-transform: translateX(0);
+                    transform: translateX(0);
+            }
+            100% {
+                -webkit-transform: translateX(500px);
+                    transform: translateX(500px);
+            }
+        }
+    </style>
+</head>
+<body class="font-Poppins  overflow-hidden" style="background-image: url('../assets/libs/images/9f52b673763275.5c13e71d59937.jpg');
+">
+    <main>
+        <section class="px-8 md:px-24 lg:px-36 z-40">
+            <div class="container mx-auto flex justify-items-center items-center h-screen">
+                <div class="flex-grow text-center">
+                    <h1 class="text-6xl text-white font-semibold capitalize mb-8">Notification App</h1>
+                    <button id="notification-button" class="text-xl py-3 px-12 capitalize font-semibold bg-blue-800 text-white rounded-full">get notification</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="notification" class="absolute bottom-3 right-3 transition-all ease-in duration-700"></div>
+    <script src="../assets/libs/scripts/app.js"></script>
+</body>
+</html>
+<!-- <div class="my-3 shadow-lg transition-all duration-500 ease">
+        <div class="p-4 bg-white w-80 rounded-lg text-gray-900 relative slide-left">
+            <h2 class="capitalize text-xl mb-2">notification heading</h2>
+            <p class="text-sm capitalize">notification context Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, ratione?</p>
+            <button class="absolute top-2 right-2 close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"></path></svg>
+            </button>
+        </div>
+    </div>
+ -->
