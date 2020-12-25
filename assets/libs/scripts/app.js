@@ -1,6 +1,5 @@
 let btnGet = document.getElementById("notification-button")
 let closeBtn = document.getElementsByClassName('close')
-// let notificationContext  = document.querySelector('template').content
 let notificationContainer = document.getElementById("notification")
 btnGet.addEventListener("click",()=>{
     setTimeout(()=>{
