@@ -1,2 +1,2 @@
 # notificatopn-app
-["https://mezianekhalil.github.io/notificatopn-app/views/home.html"]live preview
+[live preview](https://mezianekhalil.github.io/notificatopn-app/views/home.html)
