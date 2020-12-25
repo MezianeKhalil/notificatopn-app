@@ -39,7 +39,7 @@ function notificationComponent(parent){
         parentDiv.classList.add('my-3','shadow-lg')
 
         let childeDiv = document.createElement('div')
-        childeDiv.classList.add('p-5','bg-white','w-80','slide-left','relative','text-gray-900','rounded-lg')
+        childeDiv.classList.add('p-5','bg-white','w-96','slide-left','relative','text-gray-900','rounded-lg')
         parentDiv.appendChild(childeDiv)
         avatar(childeDiv)
 
